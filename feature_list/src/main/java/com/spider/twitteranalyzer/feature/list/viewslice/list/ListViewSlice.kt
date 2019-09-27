@@ -46,5 +46,4 @@ interface ListViewSlice : ViewSlice {
             adapter.setTweets(tweet)
         }
     }
-
 }

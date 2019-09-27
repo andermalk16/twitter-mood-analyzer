@@ -19,5 +19,4 @@ abstract class Bindings {
     @ContributesAndroidInjector(modules = [TweetsDetailModule::class])
     abstract fun bindTweetDetailActivity(): TweetDetailActivity
 
-
 }

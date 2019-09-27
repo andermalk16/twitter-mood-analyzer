@@ -10,7 +10,8 @@ import kotlinx.android.parcel.Parcelize
 data class Tweet constructor(
         val createdAt: String,
         val text: String,
-        val user: String
+        val user: String,
+        val id: String = "$user#$text"
 ) : Parcelable {
 
     companion object {
